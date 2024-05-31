@@ -1,0 +1,147 @@
+
+body {
+  overflow-y: auto;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+.main{
+   margin-top: 50px;  
+   position: absolute;  
+   color: aliceblue;
+   }
+  .card{
+    width: 15rem;
+  }
+  
+.main2{
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: center;
+    
+}
+
+.profile-pic,
+.logout-btn {
+  margin-right: 10px;
+}
+.d-flex{
+  margin-left: 120px;
+}
+::placeholder{
+  text-align: center;
+}
+.profile-pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+@media only screen and (max-width:600px){
+  .main{
+    margin-left: 20px;
+  }
+  .main2{
+    
+    gap: 10px;    
+    justify-content: space-evenly;
+
+
+  }
+  .card{
+    width: 10rem; 
+  }
+  .card-img-top{
+    height: 160px;
+    width: 25px;
+  }
+  .card-title{
+    font-weight: 100;
+    font-size: 0.5rem;
+  }
+  
+}
+
+ @media only screen and (max-width:500px){
+  .main{
+    margin-top: 15px; 
+  }
+  .main2{
+    gap: 10px;    
+    justify-content: space-evenly;
+
+
+  }
+  .card{
+    width: 10.7rem; 
+  }
+  .card-img-top{
+    height: 160px;
+    width: 15px;
+  }
+  .card-title{
+    font-weight: 100;
+    font-size: 0.5rem;
+  }
+  
+} 
+@media only screen and (max-width:400px){
+  .main{
+    margin-top: 20px; 
+  }
+  .main2{
+    gap: 10px;    
+    justify-content: space-evenly;
+  }
+  .card{
+    width: 8rem; 
+  }
+  .card-img-top{
+    height: 160px;
+    width: 15px;
+  }
+  .card-title{
+    font-weight: 100;
+    font-size: 0.5rem;
+  }
+  
+}
+
+
+@media screen and (max-width:300px) {
+  .main{
+    margin-top: 0px;  
+
+    }
+    .card{
+      width: 13rem;
+    }
+    .card-img-top{
+      height: 160px;
+    }
+    .text {
+      font-size: 14px;
+     
+    }
+    .main2{
+      gap: 10px;
+      margin-left: 10px;
+    }
+    
+    
+  
+}
+
+
+
+
+
+
+

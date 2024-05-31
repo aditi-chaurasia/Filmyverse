@@ -1,0 +1,21 @@
+/* .navbar-text{
+   margin-right: 12px;
+    font-size: large;
+} */
+
+@media screen and (max-width: 600px){
+    .navbar-brand{
+        margin-left: 40px;
+    }
+}
+@media screen and (max-width: 500px){
+    .navbar-brand{
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width: 400px){
+    .navbar-brand{
+        font-size: small;
+        margin-left: 40px;
+    }
+}
