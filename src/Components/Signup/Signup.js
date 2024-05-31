@@ -27,7 +27,7 @@ function Signup() {
       localStorage.setItem('token', user.accessToken);
       localStorage.setItem('user', JSON.stringify(user));
       // Redirect to a different route after successful signup
-      navigate('/popular'); // For example, navigate to the home page
+      navigate('/'); // For example, navigate to the home page
     } catch (error) {
       console.log(error);
     }
